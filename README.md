@@ -31,27 +31,42 @@ tests/
   main-page.spec.ts
   cart.spec.ts
   api.spec.ts
+```
 
-Установка проекта
+---
+
+## Установка проекта
 
 Установка зависимостей:
 
+```bash
 npm install
+```
 
 Установка браузеров Playwright:
 
+```bash
 npx playwright install
+```
 
-Запуск тестов
+---
+
+## Запуск тестов
 
 Запуск всех тестов:
 
+```bash
 npx playwright test --project=chromium
+```
 
 Запуск тестов с открытием браузера:
 
+```bash
 npx playwright test --project=chromium --headed
+```
 
-Примечание
+---
+
+## Примечание
 
 В проекте реализованы базовые smoke UI тесты для сайта M.Video и простые API тесты для публичного тестового API.
